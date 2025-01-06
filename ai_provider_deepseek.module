@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Deepseek Provider module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function ai_provider_deepseek_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.ai_provider_deepseek':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t("AI module's provider for Deepseek LLM") . '</p>';
+      return $output;
+  }
+}

@@ -1,0 +1,7 @@
+ai_provider_deepseek.settings:
+  path: '/admin/config/ai/providers/deepseek'
+  defaults:
+    _form: '\Drupal\ai_provider_deepseek\Form\SettingsForm'
+    _title: 'DeepSeek Provider settings'
+  requirements:
+    _permission: 'administer ai_provider_deepseek configuration'

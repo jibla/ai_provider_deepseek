@@ -1,0 +1,4 @@
+administer ai_provider_deepseek configuration:
+  title: 'Administer DeepSeek Provider configuration'
+  description: 'Allow access to configure DeepSeek Provider settings.'
+  restrict access: TRUE

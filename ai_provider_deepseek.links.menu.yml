@@ -1,0 +1,6 @@
+ai_provider_deepseek.settings:
+  title: 'DeepSeek'
+  description: 'Configure DeepSeek Provider settings'
+  parent: ai.admin_providers
+  route_name: ai_provider_deepseek.settings
+  weight: 10

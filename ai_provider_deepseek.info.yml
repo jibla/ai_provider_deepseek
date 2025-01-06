@@ -1,0 +1,8 @@
+name: DeepSeek Provider
+type: module
+description: "DeepSeek LLM Provider for AI module."
+package: AI Providers
+core_version_requirement: ^10 || ^11
+dependencies:
+  - ai:ai (>=1.0-beta)
+  - key:key

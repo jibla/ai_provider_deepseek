@@ -1,0 +1,8 @@
+{
+    "name": "drupal/ai_provider_deepseek",
+    "description": "Deepseek LLM provider for AI module.",
+    "type": "drupal-module",
+    "require": {
+        "deepseek-php/deepseek-php-client": "^1.0"
+    }
+}

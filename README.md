@@ -24,15 +24,8 @@ language capabilities within your Drupal site.
 ## Configuration
 
 1. Go to `/admin/config/system/keys/add` to add your Deepseek API key.
-2. Create a new key with the following settings:
-   * Key type: Authentication
-   * Key provider: Configuration
-   * Key input: Text field
-   * Enter your Deepseek API key value
-
-3. Go to `/admin/config/ai/provider/deepseek` to configure the Deepseek provider:
+2. Go to `/admin/config/ai/providers/deepseek` to configure the Deepseek provider:
    * Select the key you created
-   * Configure any additional settings specific to your use case
 
 ## Usage
 
